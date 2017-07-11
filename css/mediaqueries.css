@@ -1,0 +1,25 @@
+@media all and (max-width:970px) {
+  /*when dropdown menu items starts to wrap*/
+}
+
+@media all and (max-width:633px) {
+  .nav {
+    padding: 0;
+  }
+  .logo {
+    width: 180px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .header {
+    margin: 10px 10px 0 0;
+  }
+  .dropbtn, .dropdown-content, .dropdown-item {
+    min-width: 150px;
+  }
+  .icons {
+    max-width: 60px;
+    height: auto;
+  }
+}

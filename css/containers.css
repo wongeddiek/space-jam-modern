@@ -1,0 +1,49 @@
+.header , .nav{
+  display: flex;
+}
+
+.nav {
+  flex-wrap: wrap;
+}
+
+.header{
+  width: 95%;
+  margin: 20px auto 0 auto;
+  /*border-bottom: 2px solid white;*/
+}
+.logo {
+  width: 200px;
+  height: 125px;
+}
+
+.nav {
+  max-width: 75%;
+  margin: 0;
+  /*margin-right: 20px;*/
+  list-style: none;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 55%;
+  height: 0;
+  width: 95%;
+  /*max-width: 800px;
+  max-height: 476px;*/
+  overflow: hidden;
+  margin: 60px auto;
+}
+
+.video-container {
+  display: block;
+  position: absolute;
+  max-width: 800px;
+  max-height: 480px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
